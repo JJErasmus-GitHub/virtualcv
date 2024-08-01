@@ -4,24 +4,45 @@
         <li class="nav-item">
           <nuxt-link to="/" exact-active-class="active">Home</nuxt-link>
         </li>
+
         <li class="nav-item">
-          <nuxt-link to="/about" exact-active-class="active">About</nuxt-link>
+          <nuxt-link to="/About" exact-active-class="active">About</nuxt-link>
         </li>
+
         <li class="nav-item">
-          <nuxt-link to="/projects" exact-active-class="active">Projects</nuxt-link>
+          <nuxt-link to="/Projects" exact-active-class="active">Projects</nuxt-link>
         </li>
+
         <li class="nav-item">
-          <nuxt-link to="/contact" exact-active-class="active">Contact</nuxt-link>
+          <nuxt-link to="/Contact" exact-active-class="active">Contact</nuxt-link>
         </li>
+
+        <li class="nav-item">
+            <nuxt-link to="/Education" exact-active-class="active">Education</nuxt-link>
+        </li>
+
       </ul>
     </nav>
+
   </template>
+
+
+
+
+
+
+
   
   <script>
   export default {
     name: 'Navbar'
   }
   </script>
+
+
+
+
+
   
   <style scoped>
   .navbar {
