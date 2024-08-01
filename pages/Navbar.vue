@@ -1,0 +1,57 @@
+<template>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <nuxt-link to="/" exact-active-class="active">Home</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link to="/about" exact-active-class="active">About</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link to="/projects" exact-active-class="active">Projects</nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link to="/contact" exact-active-class="active">Contact</nuxt-link>
+        </li>
+      </ul>
+    </nav>
+  </template>
+  
+  <script>
+  export default {
+    name: 'Navbar'
+  }
+  </script>
+  
+  <style scoped>
+  .navbar {
+    background-color: #696565;
+    padding: 1em;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 1em;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-item a.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .nav-item a:hover {
+    border-bottom: 2px solid #bbb;
+  }
+  </style>
+  
