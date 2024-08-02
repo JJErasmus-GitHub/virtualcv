@@ -28,7 +28,7 @@
 
                    
                     
-                    <img src="/assets/Images/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
+                    <img src="/assets/images/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
                     
                     
             </section>
