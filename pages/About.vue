@@ -1,8 +1,8 @@
 <template>
     <div class="About">
-      <Navbar />
+      
       <section class="content">
-        <h2>About Me</h2>
+        <h2 class="About_Me">About Me</h2>
         <p>
           I am a student pursuing a Bachelor's Degree in Information Technology. I have a passion for technology, coding, and continuous learning. This portfolio showcases some of my projects and skills.
         </p>
@@ -38,13 +38,7 @@
   </template>
   
   <script>
-  import Navbar from './Navbar.vue'
-  
-  export default {
-    components: {
-      Navbar
-    }
-  }
+ 
   </script>
   
   <style scoped>
@@ -52,21 +46,22 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color:rgba(95, 94, 94, 0.6);
+    
+    
   }
   
   .content {
-    background: #fff;
+    background: rgba(95, 94, 94, 0.6);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    
+
   }
   
-  h2 {
-    text-align: center;
-    margin-bottom: 1em;
-  }
+  
   
   p {
     margin-bottom: 1em;
@@ -85,6 +80,12 @@ li{
 
 .SSkills, .TSkills{
     text-align: left;
+}
+
+.About_Me{
+    color: rgba(#B1BC43);
+    text-align: center;
+    margin-bottom: 1em;
 }
 
   </style>

@@ -2,7 +2,7 @@
     
     
     <div class="Contact">
-        <Navbar/>
+        
 
             <section class="content">
 
@@ -25,13 +25,7 @@
 
 <script>
 
-import Navbar from './Navbar.vue'
-  
-  export default {
-    components: {
-      Navbar
-    }
-  }
+
 
 </script>
 
@@ -47,8 +41,15 @@ import Navbar from './Navbar.vue'
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color:rgba(95, 94, 94, 0.6);
+}
+
+.content{
+    background: rgba(95, 94, 94, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
 }
 
 

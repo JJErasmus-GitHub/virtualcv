@@ -1,7 +1,7 @@
 <template>
     
     <div class="Education">
-        <Navbar/>
+        
 
         <section class="content">
             <h1>Education</h1>
@@ -14,6 +14,23 @@
 
         </section>
 
+
+
+
+
+
+        <div>
+            <section class="Certifications">
+                <h1>Certifications</h1>
+                <header class="Cert_header">
+                    
+                    <img src="/assets/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
+                </header>
+                    
+            </section>
+        </div>
+        
+
     </div>
 
 </template>
@@ -24,13 +41,7 @@
 
 <script>
 
-import Navbar from './Navbar.vue'
-  
-  export default {
-    components: {
-      Navbar
-    }
-}
+
 
 </script>
 
@@ -45,17 +56,19 @@ import Navbar from './Navbar.vue'
 
 .Education {
     max-width: 900px;
+    
     margin: 0 auto;
     padding: 20px;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color:rgba(95, 94, 94, 0.6);
+    color: black;
   }
 
-.content{
-    background: #fff;
+.content, .Certifications{
+    background: rgba(95, 94, 94, 0.6);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 h1{
@@ -65,6 +78,23 @@ h1{
 
 p{
     text-align: center;
+}
+
+.FastAPI_Cert{
+    
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.Cert_header{
+    text-align: center;
+    opacity: 1;
+    margin-top: 2em;
+    background: rgba(95, 94, 94, 0.6);
+    
+    padding: 20px;
+    border-radius: 10px;
 }
 
 </style>

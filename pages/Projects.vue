@@ -1,6 +1,6 @@
 <template>
     <div class="Projects">
-        <Navbar/>
+        
         <section class="Titles">
             <h2>Projects</h2>
                 <div class="project-list">
@@ -37,23 +37,15 @@
 
 <script>
 
-import Navbar from './Navbar.vue';
 
-export default {
-    components: {
-        Navbar
-    },
-    data() {
-      return {
-        projects: [
+
+    
+        const projects = ref ([
           { id: 1, title: 'CMPG 212 Group Project', description: 'Description of project one.' },
           
           
-        ]
-      }
-    }
-  }
-
+        ])
+      
 </script>
 
 
@@ -65,12 +57,15 @@ export default {
 <style>
 
 .Projects{
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgba(95, 94, 94, 0.6);
     padding: 20px;
-    background-color: #f0f0f0;
-    color: #333;
-  }
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+  
   
 h2{
     text-align: center;

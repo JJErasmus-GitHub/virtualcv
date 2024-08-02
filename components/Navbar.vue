@@ -55,7 +55,8 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+    border: #696565;
   }
   
   .nav-item {
