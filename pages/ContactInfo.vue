@@ -6,7 +6,7 @@
 
             <section class="content">
 
-                <h1>Contact me;</h1>
+                <h1>Contact me()</h1>
                     <p>Email: <a href="mailto:worsteinerasmus@gmail.com">worsteinerasmus@gmail.com</a></p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/hanno-erasmus-709b19295/" target="_blank">Hanno Erasmus</a></p>
                     <p>GitHub: JJErasmus-GitHub</p>

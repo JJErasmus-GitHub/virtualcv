@@ -5,7 +5,7 @@
 
         <section class="content">
             
-            <h1>Education;</h1>
+            <h1>Education()</h1>
                 <p>
                     Outeniqua Highschool (2017-2021)
                 </p>
@@ -24,12 +24,12 @@
 
         <div>
             <section class="Certifications">
-                <h1>Certifications;</h1>
+                <h1>Certifications()</h1>
 
-                    <header class="Cert_header">
+                   
                     
-                        <img src="/assets/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
-                    </header>
+                    <img src="/assets/Images/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
+                    
                     
             </section>
         </div>

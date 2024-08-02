@@ -3,7 +3,7 @@
         
         
             <header class="header">
-                <img src="/assets/CV_image.jpg" alt="Profile Picture" class="profile-picture">
+                <img src="/assets/images/CV_image.jpg" alt="Profile Picture" class="profile-picture">
                     <h1 class="name">Hanno Erasmus</h1>
                         <p class="tagline">Aspiring Software Developer</p>
             </header>

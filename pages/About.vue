@@ -2,7 +2,7 @@
     <div class="About">
       
       <section class="content">
-        <h1 class="About_Me">About Me;</h1>
+        <h1 class="About_Me">About Me()</h1>
         <p>
           I am a student pursuing a Bachelor's Degree in Information Technology. I have a passion for technology, coding, and continuous learning. This portfolio showcases some of my projects and skills.
         </p>
@@ -10,7 +10,7 @@
           In my studies, I have focused on areas such as data analysis, software development, and information management. I am always eager to take on new challenges and expand my knowledge.
         </p>
 
-        <h1 class="Skills"> Skills; </h1>
+        <h1 class="Skills"> Skills() </h1>
             <p class="TSkills">
                 Technical skills:
                 <ul>
@@ -63,6 +63,7 @@
   }
   h1{
     color:#45CD32;
+    
   }
   
   
