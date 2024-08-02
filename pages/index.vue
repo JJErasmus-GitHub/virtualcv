@@ -48,14 +48,15 @@
     margin: 0 auto;
     padding: 20px;
     justify-content: center;
+    opacity: 1;
   }
   
   .header {
     text-align: center;
     opacity: 1;
     margin-top: 2em;
-    background: rgba(95, 94, 94, 0.6);
     
+    background-color: #222;
     padding: 20px;
     border-radius: 10px;
   }
@@ -71,23 +72,27 @@
   .name {
     font-size: 2em;
     margin: 0.5em 0;
+    color: white;
   }
   
   .tagline {
-    color: #777;
+    color: #0B9FF4;
+
   }
   
   .Summary {
     opacity: 1;
     margin-top: 2em;
-    background: rgba(95, 94, 94, 0.6);
-    
+    color: white;
+    background-color: #222;
     padding: 20px;
     border-radius: 10px;
   }
   
   
-  
+  h2{
+    color: white;
+  }
   
   
   a {

@@ -14,7 +14,7 @@
         </li>
 
         <li class="nav-item">
-          <nuxt-link to="/Contact" exact-active-class="active">Contact</nuxt-link>
+          <nuxt-link to="/ContactInfo" exact-active-class="active">Contact</nuxt-link>
         </li>
 
         <li class="nav-item">

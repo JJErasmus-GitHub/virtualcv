@@ -4,13 +4,16 @@
         
 
         <section class="content">
-            <h1>Education</h1>
+            
+            <h1>Education;</h1>
                 <p>
                     Outeniqua Highschool (2017-2021)
                 </p>
                 <p>
-                    North-West University (2022-2024)
+                    North-West University (2022-2024 expected end date)
                 </p>
+                
+                
 
         </section>
 
@@ -21,11 +24,12 @@
 
         <div>
             <section class="Certifications">
-                <h1>Certifications</h1>
-                <header class="Cert_header">
+                <h1>Certifications;</h1>
+
+                    <header class="Cert_header">
                     
-                    <img src="/assets/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
-                </header>
+                        <img src="/assets/FastAPICertification.png" alt="FastAPI_Cert" class="FastAPI_Cert">
+                    </header>
                     
             </section>
         </div>
@@ -59,21 +63,24 @@
     
     margin: 0 auto;
     padding: 20px;
-    background-color:rgba(95, 94, 94, 0.6);
+    background-color:rgba(95, 94, 94, 0.8);
     color: black;
   }
 
 .content, .Certifications{
-    background: rgba(95, 94, 94, 0.6);
+    background: #222;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-top: 2em;
 }
 
 h1{
     text-align: center;
     margin-bottom: 1em;
+    
+    color: #E9B516;
 }
 
 p{
@@ -87,15 +94,7 @@ p{
     padding: 10px;
 }
 
-.Cert_header{
-    text-align: center;
-    opacity: 1;
-    margin-top: 2em;
-    background: rgba(95, 94, 94, 0.6);
-    
-    padding: 20px;
-    border-radius: 10px;
-}
+
 
 </style>
 

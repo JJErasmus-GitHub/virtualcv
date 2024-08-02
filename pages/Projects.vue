@@ -41,7 +41,7 @@
 
     
         const projects = ref ([
-          { id: 1, title: 'CMPG 212 Group Project', description: 'Description of project one.' },
+          { id: 1, title: 'CMPG 223 Group Project', description: 'Description of project one.' },
           
           
         ])
@@ -69,12 +69,13 @@
   
 h2{
     text-align: center;
+    color: white;
 }
 
 .Info, .Titles{
     text-align: center;
     margin-top: 2em;
-    background: rgba(189, 183, 183, 0.6);
+    background: #222;
     padding: 20px;
     border-radius: 10px;
 }
