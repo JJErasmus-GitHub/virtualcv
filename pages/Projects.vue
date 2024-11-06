@@ -5,7 +5,8 @@
             <h2>Projects()</h2>
                 <ol>
                     <li>CMPG 223 Group Project (NWU University Group Project built in 2023)</li> 
-                    <li>CMPG 311 Group Project (NWU University Group Project built in 2024)</li> 
+                    <li>CMPG 311 Group Project (NWU University Group Project built in 2024)</li>
+                    <li>CMPG 323 Group Project (NWU University Group Project built in 2024)</li> 
                 </ol>
                 
                 
@@ -17,7 +18,8 @@
             <h2>Info()</h2>
                 <ol>
                     <li>In this assignment me and my team created an application for Dairy Exchange that tracks their orders. We used C# for the application and MS SQL Server for the database.</li>   
-                    <li>In this assignment me and my team designed and created a database in Oracle for an ordering system for a coffee shop.</li>
+                    <li>In this assignment me and my team designed and created a database in Oracle for an ordering system for a coffee shop. (The link for the repository can be found on my GitHub profile).</li>
+                    <li>In this assignment me and my team designed and created a full-stack Web Application using Nuxt.js and Fastapi. (The link for the repository can be found on my GitHub profile).</li>
                 </ol>
                     
                 
